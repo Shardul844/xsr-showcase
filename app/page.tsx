@@ -17,13 +17,13 @@ export default function Home() {
 
   return (
     <main className="bg-black text-white overflow-x-hidden relative">
-      <nav className="fixed top-0 left-0 w-full z-50 px-8 py-6 flex items-center justify-between backdrop-blur-md bg-black/20 border-b border-white/10">
+      <nav className="fixed top-0 left-0 w-full z-50 px-4 md:px-8 py-5 flex items-center justify-between backdrop-blur-md bg-black/20 border-b border-white/10">
 
   <h1 className="text-xl md:text-2xl font-black tracking-[0.3em]">
     XSR155
   </h1>
 
-  <div className="flex gap-6 text-sm text-zinc-400 uppercase tracking-[0.2em]">
+  <div className="flex gap-4 md:gap-6 text-xs md:text-sm text-zinc-400 uppercase tracking-[0.2em] overflow-x-auto whitespace-nowrap scrollbar-hide max-w-[65%] md:max-w-none">
     <a href="#design" className="hover:text-red-500 transition">
       Design
     </a>
@@ -75,7 +75,7 @@ export default function Home() {
   initial={{ opacity: 0, y: 50 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 1.2 }}
-  className="text-6xl md:text-8xl font-black leading-none"
+  className="text-5xl sm:text-4xl sm:text-6xl md:text-8xl font-black leading-none"
 >
   
            <span className="text-white">BORN</span>
@@ -153,7 +153,7 @@ export default function Home() {
         />
 
         <div className="relative z-10 text-center px-8">
-          <h2 className="text-6xl md:text-8xl font-black">
+          <h2 className="text-4xl sm:text-6xl md:text-8xl font-black">
             ICONIC
             <br />
             PRESENCE
@@ -176,7 +176,7 @@ export default function Home() {
       Raw Mechanics
     </p>
 
-    <h2 className="text-5xl md:text-6xl font-black mb-10">
+    <h2 className="text-4xl sm:text-5xl md:text-6xl font-black mb-10">
       Compact.
       <br />
       Aggressive.
@@ -303,7 +303,7 @@ export default function Home() {
       Sound & Character
     </p>
 
-    <h2 className="text-5xl md:text-6xl font-black mb-10">
+    <h2 className="text-4xl sm:text-5xl md:text-6xl font-black mb-10">
       Raw.
       <br />
       Mechanical.
@@ -388,7 +388,7 @@ export default function Home() {
       Built To Be Different
     </p>
 
-    <h2 className="text-6xl md:text-8xl font-black mb-6">
+    <h2 className="text-4xl sm:text-6xl md:text-8xl font-black mb-6">
       XSR155
     </h2>
 
@@ -411,7 +411,7 @@ export default function Home() {
     SHARDUL LAD
   </h3>
 
-  <div className="flex justify-center gap-6 text-sm uppercase tracking-[0.2em]">
+  <div className="flex justify-center gap-4 md:gap-6 flex-wrap text-sm uppercase tracking-[0.2em]">
 
     <a
       href="https://www.instagram.com/shardul.5.7.5"
